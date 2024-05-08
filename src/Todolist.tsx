@@ -8,7 +8,7 @@ import {Task} from './Task'
 import {TaskStatuses, TaskType} from './api/todolists-api'
 import {FilterValuesType} from './state/todolists-reducer'
 import {useAppDispatch} from './state/store';
-import {getTasksTC, setTasksAC} from './state/tasks-reducer';
+import {getTasksTC} from './state/tasks-reducer';
 
 type PropsType = {
     id: string
