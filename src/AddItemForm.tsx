@@ -37,15 +37,15 @@ export const AddItemForm = React.memo(function (props: AddItemFormPropsType) {
 
     return <div>
         <TextField variant="outlined"
-                   error={!!error}
-                   value={title}
-                   onChange={onChangeHandler}
-                   onKeyPress={onKeyPressHandler}
-                   label="Title"
-                   helperText={error}
+            error={!!error}
+            value={title}
+            onChange={onChangeHandler}
+            onKeyPress={onKeyPressHandler}
+            label="Title"
+            helperText={error}
         />
         <IconButton color="primary" onClick={addItem}>
-            <AddBox/>
+            <AddBox />
         </IconButton>
     </div>
 })
